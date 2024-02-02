@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+
+.container {
+    background-color: rgb(246, 96, 9);
+    font-family:fantasy
+}
+
+.container:hover {
+    background-color: blueviolet;
+}
+
+.image {
+    background-color: rgb(6, 248, 10);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.about-me {
+    background-color: rgb(255, 221, 0);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    }
+
+.facts {
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.header {
+    background-color: aqua;
+    font-family:monospace
+}
+
+.list {
+    background-color: burlywood;
+    font-family: cursive;
+}
+
+.contact-info {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.footer {
+    background-color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
