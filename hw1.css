@@ -1,0 +1,131 @@
+*{
+    background-color: black;
+    color: aliceblue;
+}
+
+html{
+    height: 100%;
+    line-height: 2.5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+    color: rgb(50, 154, 54);
+    border-style:groove;
+    border-color: aliceblue;
+    flex-flow: wrap;
+    box-shadow: 5px 5px 5px rgb(51, 151, 51);
+}
+
+h1{
+    display: flex;
+    justify-content: flex-start;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+}
+
+h2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:25px; 
+    text-decoration: underline;
+}
+
+h2:hover{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(51, 156, 51);
+}
+
+.avatar{
+    display: flex;
+    justify-content: center; 
+}
+
+.quote{
+    text-align: center;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 2;
+}
+
+.quote:hover{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(51, 161, 51)
+}
+
+.about-me{
+    display: flex;
+    justify-content: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    text-align: center;
+    line-height: 2;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+h3:hover{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(51, 155, 51);
+}
+
+h4{
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+h4:hover{
+    color: rgb(51, 161, 51);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact{
+    list-style: none;
+    text-align: center;
+    font-size: 22px;
+}
+
+.links{
+    font-size: 22px;
+}
+
+.links:hover{
+    font-style: italic;
+    font-size: 30px;
+}
+
+.projects{
+    list-style:none;
+    font-size: 22px;
+ }
+
+ .projects:hover{
+    font-style: italic;
+    font-size: 30px;
+ }
+
+ .photo{
+    box-shadow: 5px 5px 5px rgb(51, 154, 51);
+ }
+
+ .quote::first-letter{
+    font-size: 50px;
+ }
+
+ .resume:hover{
+    font-style: italic;
+    font-size: 30px;
+ }

@@ -1,0 +1,53 @@
+*{ background-color: rgb(0, 64, 0);
+    color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: space-evenly;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.players{
+    border: 50px;
+    border-style: dashed;
+    border-color: aliceblue;
+    padding: 100px;
+    background-color: black;
+    display: inline-block;
+    font-size: larger;
+    left: 30px;
+    border-radius: 20%;
+}
+
+.coaches{
+    position: absolute;
+    border: 50px;
+    border-style: dashed;
+    border-color: aliceblue;
+    border-radius: 20%;
+    background-color: black;
+    font-size: larger;
+    padding: 100px;
+    top: 100px;
+   left: 500px
+   
+}
+
+.history{
+    border: 50px;
+    position: absolute;
+    left: 1000px;
+    border: 50px;
+    border-style: dashed;
+    border-color: aliceblue;
+    background-color: black;
+    border-radius: 20%;
+    font-size: larger;
+    padding: 100px;
+    bottom: 625px;
+}
